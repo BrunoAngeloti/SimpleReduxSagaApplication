@@ -12,3 +12,6 @@ export function* load({payload} : any): any{
     }
 }
 
+export function freteGratis (valor: number) {
+    return valor >= 150
+}
